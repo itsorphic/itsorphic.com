@@ -1,0 +1,100 @@
+baseURL = "https://itsorphic.com/"
+theme = "hugo-ficurinia"
+title = "orphic"
+languageCode = "en"
+defaultContentLanguage = "en"
+
+copyright = "orphic"
+
+summaryLength = 70
+
+
+[params]
+    author = "orphic"
+    description = "Making sweet science to computers."
+
+    posts = "posts"
+    showPostsLink = true
+    extraContentDirs = []
+    showcaseDir = "showcase"
+
+    showSinglePageAsHome = false
+    homeSinglePage = "/home"
+
+    logo = "/logo.svg"
+    favicon = "/favicon.png"
+    faviconIco = "/favicon.ico"
+    appletouch = "/apple-touch-icon.png"
+    svgicon = "/logo.svg"
+    icon512 = "/icon512.png"
+
+    logoRightOfTitle = false
+
+    showTags = true
+    showRss = true
+
+    imageInArticlePreview = false
+    fitImageInArticlePreview = false
+    articleSummary = true
+    
+    fontFamily = "JetBrains Mono"
+    titleFontFamily = "JetBrains Mono"
+    monospaceFontFamily = "JetBrains Mono"
+
+    titleFontSizeMultiplier = 1.0
+    mainFontSizeMultiplier = 1.0
+    monoFontSizeMultiplier = 1.0
+
+    contentWidth = "1000px"
+
+    paperCards = false
+    buttonTags = false
+    tagsInArticlePreview = true
+    gridView = false
+    bigArticleTitle = false 
+    navtype = "standard"
+    enableShadow = false
+    menuStyle = "standard"
+    inputStyle = "standard"
+
+    enableSearch = true
+    searchbarEverywhere = true
+    searchMenuLink = false
+    mobileHamburgerNav = false
+
+    enableFeatured = false
+
+    underlineTitleLinks = false
+
+    enableShareOnFediverse = true
+    tocBeforeImage = false
+
+    enableSidebarLayout = false
+    tocInSidebar = false 
+
+    forceRedirect = true
+
+
+[menu]
+
+    [[menu.main]]
+        identifier = "writeups"
+        name = "Writeups"
+        url = "/writeups/"
+        weight = 20
+    [[menu.icons]]
+        identifier = "GitHub"
+        name = "GitHub"
+        url = "https://github.com/itsorphic/"
+        weight = 10
+    [[menu.icons]]
+        identifier = "linkedin"
+        name = "LinkedIn"
+        url = "https://www.linkedin.com/in/migcardoso/"
+        weight = 20
+    [[menu.icons]]
+        identifier = "email"
+        name = "email"
+        url = "mailto:orphicxbt@proton.me"
+
+
